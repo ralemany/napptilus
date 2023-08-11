@@ -1,6 +1,12 @@
 # napptilus
 Technical assesment - Basic Mobile shop
 Application create with Javascript
+Libraries used:
+- Normalize.css
+- Primeflex
+- Sass
+- FontAwesome
+- Jest
 
 # React + Vite
 
@@ -24,3 +30,10 @@ build - Compile the app for server deployment
 lint - Run linter to check good practices and discover potential issues
 test - Run Jest tests
 preview - Run the app in preview mode
+
+# Aditional info related the assesment
+POST REQUEST
+I couldn't retrieve the correct data from the POST request when I add new cart item.
+I tried with axios and fetch but always returns {content: 1}.
+Doing with POSTMAN and curl it return the correct data, but may be I missing any header
+in the request (I tried all except HOST header because I don't know how to do it).
